@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-entityresolution`](https://www.npmjs.com/package/@aws-sdk/client-entityresolution/v/3.521.0).
+[`@aws-sdk/client-entityresolution`](https://www.npmjs.com/package/@aws-sdk/client-entityresolution/v/3.523.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.521.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.523.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-obC1V4thD1qqjDH+McKnkKTKhk0dNwY0BxEGiyBzcZ9vMDi24ik+SPLU2R3YtJfM
+sha384-DJzsCt5IsC9b745Ua5PicPTcZtH6imC7oTlgHPh1nfgS7kk36CxkeDgqXFs1tcSh
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-entityresolution": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.521.0/index.min.mjs"
+            "@aws-sdk/client-entityresolution": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.523.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.521.0/index.min.mjs": "sha384-obC1V4thD1qqjDH+McKnkKTKhk0dNwY0BxEGiyBzcZ9vMDi24ik+SPLU2R3YtJfM"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.523.0/index.min.mjs": "sha384-DJzsCt5IsC9b745Ua5PicPTcZtH6imC7oTlgHPh1nfgS7kk36CxkeDgqXFs1tcSh"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-entityresolution": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.521.0/index.min.mjs"
+                        "@aws-sdk/client-entityresolution": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.523.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.521.0/index.min.mjs": "sha384-obC1V4thD1qqjDH+McKnkKTKhk0dNwY0BxEGiyBzcZ9vMDi24ik+SPLU2R3YtJfM"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-entityresolution@3.523.0/index.min.mjs": "sha384-DJzsCt5IsC9b745Ua5PicPTcZtH6imC7oTlgHPh1nfgS7kk36CxkeDgqXFs1tcSh"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.521.0`)
+* Always pin to a specific version (`@3.523.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-entityresolution/blob/refs/tags/3.521.0/LICENSE
+https://github.com/cloud-sdk-builds/client-entityresolution/blob/refs/tags/3.523.0/LICENSE
 ```
 
 ---
